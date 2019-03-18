@@ -1,0 +1,16 @@
+body{
+  background-color: #2B2B2B;
+  color: gold;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+}

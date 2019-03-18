@@ -1,0 +1,13 @@
+body{
+    background-color: #EADEB5;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+    padding: 9px;
+}

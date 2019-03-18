@@ -1,0 +1,121 @@
+body{
+  background-color: #2B2B2B;  
+}
+
+.home{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 200px;
+    top: 207px;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: #2b2b2b;
+}
+
+.tl{
+    position: absolute;
+    left: 86px;
+    top: 51px;
+}
+
+.drawings{
+    position: relative;
+    left: 201px;
+    bottom: -219px;
+    width: 200px;
+    height: 200px;
+}
+
+.brwn{
+    position: absolute;
+    left: 68px;
+    top: 90px;
+    width: auto
+}
+
+.characters{
+    position: relative;
+    left: 99px;
+    top: 333px;
+    width: 200px;
+    height: 155px;
+}
+
+.littlebee{
+    position: absolute;
+    left: 53px;
+    top: 19px;
+    width: 100px;
+    height: 100px;
+}
+
+.paintings{
+    position: relative;
+    left: 851px;
+    top: -384px;
+    width: 80px;
+    height: 81px;
+}
+
+.pan{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.hay{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.contact{
+    position: relative;
+    left: 730px;
+    top: -95px;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 900px) {
+    .paintings{
+        left: 669px
+    }
+    
+    .contact{
+        left: 607px;
+    }
+}
+
+@media (max-width: 767px){
+    .paintings{
+        left: 470px;
+    }
+    
+    .contact{
+        left: 431px;
+    }
+}
+
+@media (max-width: 580px){
+    .home{
+        left: -41px;
+        top: -9px;
+    }
+    .drawings{
+        left: 12px;
+        top: -9px;
+    }
+    .paintings{
+        left: 225px;
+    }
+    .contact{
+        left: 290px;
+    }
+    .characters{
+        left: 5px;
+    }
+}
